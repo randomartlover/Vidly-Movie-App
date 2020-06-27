@@ -8,7 +8,8 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.1.1",
     "font-awesome": "^4.7.0",
-    "prettier": "^2.0.5",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -18,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "prettier --write \"src/**/*.{js,html}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,html}\""
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
   }
 }
