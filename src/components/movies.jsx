@@ -44,7 +44,7 @@ const genres = [{_id: "", name: 'All Genres'}, ...getGenres()]
   };
 
   handleSort = sortColumn => {
-   this.setState({sortColumn})
+   this.setState({sortColumn});
   };
 
   render() {
